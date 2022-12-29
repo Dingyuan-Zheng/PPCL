@@ -1,0 +1,24 @@
+==========
+Args:Namespace(alpha=0.999, arch='resnet50', batch_size=32, data_dir='/home/zdy/ICE_ours/examples/data', dataset_target='msmt17', dropout=0, epochs=40, eps=0.55, eval_step=1, features=0, height=256, iters=400, k1=30, logs_dir='/home/zdy/ICE_ours/examples/logs', lr=0.00035, milestones=[], min_samples=4, num_instances=4, print_freq=100, scale_kl=0.4, seed=1, tau_c=0.5, tau_v=0.1, warmup_step=10, weight_decay=0.0005, width=128, workers=8)
+==========
+Using downloaded file: /home/zdy/ICE_ours/examples/data/msmt17/MSMT17_V1
+MSMT17 dataset loaded
+  subset   | # ids | # images
+  ---------------------------
+  train    |  1041 |    32621
+  query    |  3060 |    11659
+  gallery  |  3060 |    82161
+=> Loaded checkpoint '/home/zdy/ICE_ours/examples/logs/model_best.pth.tar'
+Extract Features: [50/367]	Time 0.157 (0.398)	Data 0.000 (0.038)	
+Extract Features: [100/367]	Time 0.132 (0.276)	Data 0.000 (0.022)	
+Extract Features: [150/367]	Time 0.189 (0.235)	Data 0.000 (0.017)	
+Extract Features: [200/367]	Time 0.237 (0.215)	Data 0.061 (0.014)	
+Extract Features: [250/367]	Time 0.136 (0.202)	Data 0.001 (0.012)	
+Extract Features: [300/367]	Time 0.133 (0.194)	Data 0.000 (0.011)	
+Extract Features: [350/367]	Time 0.134 (0.188)	Data 0.000 (0.009)	
+Mean AP: 41.8%
+CMC Scores:
+  top-1          73.4%
+  top-5          82.9%
+  top-10         86.1%
+Time used: 489.15443420410156

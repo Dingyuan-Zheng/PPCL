@@ -1,0 +1,21 @@
+==========
+Args:Namespace(alpha=0.999, arch='resnet50', batch_size=32, data_dir='/home/zdy/ICE_ours/examples/data', dataset_target='dukemtmc-reid', dropout=0, epochs=40, eps=0.55, eval_step=1, features=0, height=256, iters=400, k1=30, logs_dir='/home/zdy/ICE_ours/examples/logs', lr=0.00035, milestones=[], min_samples=4, num_instances=4, print_freq=100, scale_kl=0.4, seed=1, tau_c=0.5, tau_v=0.1, warmup_step=10, weight_decay=0.0005, width=128, workers=8)
+==========
+This dataset has been downloaded.
+=> DukeMTMC-reID loaded
+Dataset statistics:
+  ----------------------------------------
+  subset   | # ids | # images | # cameras
+  ----------------------------------------
+  train    |   702 |    16522 |         8
+  query    |   702 |     2228 |         8
+  gallery  |  1110 |    17661 |         8
+  ----------------------------------------
+=> Loaded checkpoint '/home/zdy/ICE_ours/examples/logs/model_best.pth.tar'
+Extract Features: [50/78]	Time 0.237 (0.387)	Data 0.055 (0.038)	
+Mean AP: 70.2%
+CMC Scores:
+  top-1          84.2%
+  top-5          91.3%
+  top-10         93.4%
+Time used: 44.95758056640625
