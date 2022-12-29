@@ -1,0 +1,20 @@
+==========
+Args:Namespace(alpha=0.999, arch='resnet50', batch_size=32, data_dir='/home/zdy/ICE_ours/examples/data', dataset_target='market1501', dropout=0, epochs=40, eps=0.55, eval_step=1, features=0, height=256, iters=400, k1=30, logs_dir='/home/zdy/ICE_ours/examples/logs', lr=0.00035, milestones=[], min_samples=4, num_instances=4, print_freq=100, scale_kl=0.4, seed=1, tau_c=0.5, tau_v=0.1, warmup_step=10, weight_decay=0.0005, width=128, workers=8)
+==========
+=> Market1501 loaded
+Dataset statistics:
+  ----------------------------------------
+  subset   | # ids | # images | # cameras
+  ----------------------------------------
+  train    |   751 |    12936 |         6
+  query    |   750 |     3368 |         6
+  gallery  |   751 |    15913 |         6
+  ----------------------------------------
+=> Loaded checkpoint '/home/zdy/ICE_ours/examples/logs/model_best.pth.tar'
+Extract Features: [50/76]	Time 0.138 (0.397)	Data 0.000 (0.031)	
+Mean AP: 83.1%
+CMC Scores:
+  top-1          93.8%
+  top-5          97.7%
+  top-10         98.6%
+Time used: 49.83068585395813
